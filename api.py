@@ -76,7 +76,7 @@ api.add_resource(User, '/api/user/<int:id>')
 
 @app.route('/')
 def home():
-    return "<h1>Flask Rest Api</h1>"
+    return "<h1>User management REST API</h1>"
 
 
 if __name__ == '__main__':
